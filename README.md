@@ -2,6 +2,7 @@
 Project description
 The task is to create a playlist continuation model which, given a seed playlist title and/or initial set of tracks in a playlist, can predict the subsequent tracks in that playlist, thereby continuing the playlist automatically. This is a form of the more general task of sequential recommendation. The model is to be trained using Spotify Million Playlist Dataset.
 Input: A user-created playlist which is represented by playlist metadata(such as last edit time, number of playlist edits, and more) and k seed tracks where k=0,1,5,10,25 or 100.
+
 Output: A list of 500 recommended candidate tracks, ordered by relevance in decreasing order.
 Approach taken
 Research has shown that the recommendation system problem can be modeled as an ad hoc retrieval task. 
